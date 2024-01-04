@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+<!-- ################################################################################### -->
+
+        <header>
+            <img class = "logo" src="./images/logo.png" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#ana_sayfa">Ana Sayfa</a></li>
+                    <li><a href="#fikstur">Fikstür</a></li>
+                    <li><a href="#yonetim">Yönetim</a></li>
+                    <li><a href="#">Kadromuz</a></li>
+                    <li><a href="#">Başarımlar</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Galeri</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">İletişim</a>
+            <p class="menu cta">Menu</p>
+        </header>
+
+<!-- ################################################################################### -->
+
+        <div id="mobile__menu" class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#ana_sayfa">Ana Sayfa</a>
+                <a href="#fikstur">Fikstür</a>
+                <a href="#yonetim">Yönetim</a>
+                <a href="#">Kadromuz</a>
+                <a href="#">Başarımlar</a>
+                <a href="#">Hakkımızda</a>
+                <a href="#">Galeri</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="site.js"></script>
+
+<!-- ################################################################################### -->
+
+        <section class="container" id = "ana_sayfa">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="./images/slider.png"/>
+                    <img id="slide-2" src="./images/slider_1.jpg"/>
+                    <img id="slide-3" src="./images/slider_2.jpg"/>
+                    <img id="slide-4" src="./images/slider_3.jpg"/>
+                    <img id="slide-5" src="./images/slider_4.jpg"/>
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <a href="#slide-5"></a>
+                </div>
+            </div>
+        </section>
+
+<!-- ################################################################################### -->
+
+        <div class="fikstur" id = "fikstur">
+            <img class="football" src="./images/Koyunoğlu SK.png" alt="">
+            <img class="football2" src="./images/Koyunoğlu SK. (1).png" alt="">
+            <img class="football2" src="./images/Koyunoğlu SK. (2).png" alt="">
+            <button class = "full_fikstur" onclick="goToFiksturPage()" target = "_blank">Tüm Maçlar</button>
+        </div>
+
+<!-- ################################################################################### -->
+
+        <div id = "yonetim" class = "yonetim">
+            <h1 class="baslik">YÖNETİM</h1>
+            <div class="foto">
+                <img src="./images/profil.png" class="images" alt="">
+            </div>
+
+        </div>
+
+    </body>
+</html>

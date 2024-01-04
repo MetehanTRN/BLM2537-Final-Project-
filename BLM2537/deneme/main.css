@@ -1,0 +1,23 @@
+#table-container {
+    overflow: hidden;
+  }
+  
+  #my-table {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+    border-collapse: collapse;
+  }
+  
+  #my-table.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  #my-table th, #my-table td {
+    border: 1px solid transparent;
+  }
+  
+  #my-table.show th, #my-table.show td {
+    transition: border-color 0.5s;
+  }
